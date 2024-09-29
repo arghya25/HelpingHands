@@ -1,0 +1,2 @@
+# HelpingHands
+It is a charitable website for our organisation named HelpingHands. Our mission is to help the poors provide food as per our ccapasity. This organisation was founded by our friends to make a possitive impact on the world. We have hosted many sessions going to different places such as Raiway stations, bustands, etc. and helped them with food and blanckets. Since it was an organisatin founded unofficially, we have a bottleneck of funding and could help only a small amount of people. So we thought of going online and added a payment section to get healp.
