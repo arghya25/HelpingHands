@@ -1,0 +1,474 @@
+body{
+    width: 100%;
+}
+body, p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none !important;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+}
+h2{
+    font-size: 56px;
+}
+h3{
+    font-size: 48px;
+}
+h4{
+    font-size: 32px;
+}
+h5{
+    font-size: 24px;
+}
+h6{
+    font-size: 20px;
+}
+
+/*container*/
+.container {
+    max-width: 1680px;
+    padding: 0 60px;
+}
+/*container END*/
+
+/*header area*/
+header{
+    width: 100%;
+    background-color: #ffffff;
+}
+header .navbar{
+    padding: 12px 0;
+}
+header .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: fit-content;
+}
+header .logo img{
+    height: 80px;
+    margin-right: 8px;
+}
+header .logo .logo-name{
+    font-size: 28px;
+    font-weight: 700;
+    color: #202020;
+}
+header .navbar-nav .nav-item .nav-link{
+    color: #202020;
+    font-weight: 500;
+    padding: 0;
+}
+header .navbar-nav .nav-item{
+    padding: 0 20px;
+}
+header .navbar-nav .nav-item:last-child{
+    padding-right: 0;
+}
+header .navbar-nav .nav-item .nav-link.active,
+header .navbar-nav .nav-item .nav-link:hover,
+header .navbar-nav .nav-item .nav-link:focus{
+    color: #219e80;
+}
+header .navbar-dark .navbar-toggler {
+    padding: 1px 4px;
+    border-radius: 4px;
+    background-color: #219e80;
+}
+header .navbar-toggler-icon {
+    width: 26px;
+    height: 26px;
+}
+/*header area end*/
+
+/*slider area*/
+#demo{
+    width: 100%;
+}
+#demo img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 670px;
+}
+#demo .carousel-control-prev,
+#demo .carousel-control-next {
+    background: #00000008;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin: auto 0;
+}
+
+#demo .carousel-control-next{
+    right: 48px;
+}
+#demo .carousel-control-prev{
+    left: 48px;
+}
+/*slider area end*/
+/*section-area*/
+.section-area{
+    width: 100%;
+    overflow: hidden;
+    padding: 100px 0;
+}
+/*section-area end*/
+/*about us*/
+.about-section{
+    width: 100%;
+}
+.css1 .card1 p{
+    padding-top: 15px;
+}
+.css1 .card2 .pic0{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 0 50px;
+    height: 624px;
+}
+.css2 .card1 .pic2{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 0 50px;
+    height: 624px;
+}
+/*about us end*/
+/*my-heading*/
+.my-heading{
+    margin-bottom: 32px;
+}
+.my-heading h6,
+.my-heading h6 i{
+    color: #219e80;
+}
+.my-heading h3{
+    color: #202020;
+    font-family: 'Playfair Display', serif;
+}
+/*my-heading end*/
+/*trust*/
+/*.trust{*/
+/*    padding: 10% 5%;*/
+/*}*/
+.trust .css3{
+    margin-top: 50px;
+}
+.trust .h4{
+    color: #219e80;
+}
+.trust .css3 .card1,
+.trust .css3 .card2,
+.trust .css3 .card3,
+.trust .css3 .card4{
+    border-radius: 8px;
+    box-shadow: 0 0 8px #00000040;
+    width: 200px;
+}
+.trust .css3 .card1 .trust1,
+.trust .css3 .card2 .trust2,
+.trust .css3 .card3 .trust3,
+.trust .css3 .card4 .trust4{
+    padding: 5px;
+    height: 216px;
+    border-radius: 8px;
+    width: 100%;
+}
+.trust .css3 .card1 p,
+.trust .css3 .card2 p,
+.trust .css3 .card3 p,
+.trust .css3 .card4 p{
+    padding: 10px;
+    font-weight: 500;
+    text-align: justify;
+}
+/*trust ends*/
+
+/*gallery begin*/
+.gallery .topic{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+ .gal1 img,
+ .gal2 img{
+    height: 215px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+/*gallery ends*/
+
+/*join-us begin*/
+.join-us .picture1{
+    position: relative;
+}
+.join-us .picture2 img{
+    position: absolute;
+    z-index: 1;
+    bottom: -96px;
+    height: 381px;
+    width: 663px;
+    left: 248px;
+    border-radius: 8px;
+}
+.join-us .heding{
+    position: absolute;
+    z-index: 1;
+    top: 51px;
+    text-align: center;
+    left: 272px;
+}
+.join-us .heding h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+/*join-us ends*/
+
+/*footer begin*/
+.css4{
+    justify-content: space-between;
+}
+
+.footer .col-md-2,
+.footer .col-md-5,
+.footer .col-md-3 {
+    /*display: flex;*/
+    display: grid;
+}
+.footer{
+    background-color: #000000;
+    padding: 50px 0;
+}
+.footer h6{
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.footer a{
+    color: #ffffff;
+}
+.footer .css4 img{
+    height: 120px;
+}
+.footer .css4  p{
+    display: flex;
+    color: #ffffff;
+}
+.footer .css4 .social {
+    display: flex;
+    font-size: 28px;
+    color: #219e80;
+}
+.footer .css4 .social i{
+    padding-left: 15px;
+}
+.footer .css4 .col-md-3 .far{
+    font-size: 24px;
+}
+/*-------------------------------------------------------ABOUT US-------------------------------------------------------*/
+
+.about-section .banner{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 560px;
+    filter: brightness(35%);
+    position: relative;
+    z-index: 1;
+}
+.about-section h1{
+    position: absolute;
+    z-index: 2;
+    top: 23%;
+    left: 40%;
+    color: #219e80;
+}
+.about-section .about-start{
+    padding: 100px 0;
+}
+.meet-our-team .team .r-card,
+.meet-our-team .team .skt-card,
+.meet-our-team .team .shl-card{
+    box-shadow: 0 0 8px #00000040;
+    width: fit-content;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    height: 300px;
+}
+.meet-our-team .team .r-card img,
+.meet-our-team .team .skt-card img,
+.meet-our-team .team .shl-card img{
+    height: 224px;
+    border-radius: 8px;
+    width: 175px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 3px 3px 7px #0000006b;
+}
+.meet-our-team .team .r-card .raj-decp h6,
+.meet-our-team .team .skt-card .saikat-decp h6,
+.meet-our-team .team .shl-card .sahil-decp h6{
+    font-family: 'Playfair Display', serif;
+    color: #219e80;
+}
+.meet-our-team .team .r-card .raj-decp,
+.meet-our-team .team .skt-card .saikat-decp,
+.meet-our-team .team .shl-card .sahil-decp{
+    position: absolute;
+    z-index: 1;
+    box-shadow: 6px 1px 8px #00000040;
+    width: 175px;
+    left: 172px;
+    top: 40px;
+    color: #202020;
+    border-radius: 12px;
+    padding: 10px;
+    padding-top: 30px;
+}
+.read-more {
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff !important;
+    padding: 12px 32px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #219e80;
+    box-shadow: none;
+    transition: all 0.7s;
+}
+.read-more.active, .read-more:focus, .read-more:hover {
+    background-color: #202020;
+}
+/*---------------------------contact us---------------------------------*/
+.contact {
+    width: 800px;
+    height: 492px;
+    padding: 0;
+    background-color: white;
+    margin: 100px auto;
+    box-shadow: 1px 0 8px #000000c4;
+    border-radius: 8px;
+}
+.contact .call img{
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    /* border-radius: 0 50px; */
+    height: 624px;
+    position: absolute;
+    z-index: 2;
+}
+.contact .call h5,
+.contact .call h4{
+    font-family: 'Playfair Display', serif;
+}
+.contact .call .dep{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    padding: 29px;
+}
+.contact .call .dep p{
+    font-size: 12px;
+    margin: 18px 0;
+    color: #f5f7f9ba;
+}
+.contact .call .dep .fab{
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #b3b4bc;
+}
+.contact .call{
+    height: 500px;
+    width: 800px;
+}
+.contact .call-us{
+    padding: 20px;
+}
+.contact .call-us p{
+    font-size: 14px;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 22px;
+    padding-right: 163px;
+}
+.contact .call-us .btn{
+    background-color: #219e80;
+    color: white;
+    text-transform: uppercase;
+}
+.cntct{
+    width: 100%;
+    object-fit: cover;
+    height: 560px;
+    filter: brightness(35%);
+    object-position: center;
+    position: relative;
+    z-index: 1;
+}
+.contact-section h1{
+    position: absolute;
+    z-index: 2;
+    top: 23%;
+    left: 40%;
+    color: #219e80;
+}
+/*------------------------------------------------srevice--------------------------------------------------------------------*/
+.donation-section .dnat{
+    width: 100%;
+    object-fit: cover;
+    height: 560px;
+    filter: brightness(35%);
+    object-position: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+.donation-section h1{
+    position: absolute;
+    z-index: 2;
+    top: 13%;
+    left: 31%;
+    color: #219e80;
+}
+.donation-section .gal2 img,
+.donation-section .gal3 img{
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.donation-section .galleryh3{
+    margin-top: 100px;
+    text-align: center;
+}
+.donation-section .h20,
+.donation-section .h21{
+    text-align: center;
+    color: #219e80;
+}
+.donation-section .h21{
+    margin-top: 100px;
+}

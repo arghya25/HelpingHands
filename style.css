@@ -1,0 +1,253 @@
+body, p{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+}
+a{
+    text-decoration: none;
+}
+.card-section{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #4569bd;
+}
+.card-section .my-card{
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-shadow: 0 0 50px #00000052;
+}
+.card-section .my-card img{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+}
+.card-section .my-card .my-div ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.card-section .my-card .my-div .name-ul li{
+    display: inline-block;
+    width: 49%;
+}
+.card-section .my-card .my-div{
+    padding: 0 32px 32px 32px;
+}
+.card-section .my-card .my-div .name-ul li h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 2px 0;
+}
+.card-section .my-card .my-div ul.name-ul .my-li{
+    text-align:end;
+}
+.card-section .my-card .my-div .name-ul li h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #4569bd;
+    margin: 0 0 2px 0;
+}
+.card-section .my-card .my-div .my-p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #3d3d3d;
+    margin: 0 0 20px 0;
+    width: 70%;
+}
+.card-section .my-card .my-div .color-ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+.card-section .my-card .my-div .color-ul li{
+    padding-right: 12px;
+}
+.card-section .my-card .my-div .color-ul li .color-tab .color-span{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: block;
+}
+.card-section .my-card .my-div .color-ul li .color1 .color-span{
+    background-color: #000000;
+}
+.card-section .my-card .my-div .color-ul li .color2 .color-span{
+    background-color: red;
+}
+.card-section .my-card .my-div .color-ul li .color3 .color-span{
+    background-color: yellow;
+}
+.card-section .my-card .my-div .color-ul li .color4 .color-span{
+    background-color: green;
+}
+.card-section .my-card .my-div .color-ul .color3-li{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+.card-section .my-card .my-div .color-ul li .color4 span .color-span{
+    margin-left: 8px;
+}
+.card-section .my-card .my-div .color-ul .color3-li .span-y{
+    margin-right: 8px;
+}
+.card-section .my-card .my-div .color-ul li .color4 span,
+.card-section .my-card .my-div .color-ul li .color2 span{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex !important;
+}
+.card-section .my-card .my-div .color-ul li .color2 span p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.buy_now_button{
+    background-color: transparent;
+    font-size: 16px;
+    padding: 16px 48px;
+    color: #ef6a73;
+    border-color: #ef6a73;
+    text-transform: capitalize;
+}
+
+.card-section .my-card .my-div .b1{
+    padding: 12px 48px;
+    background-color: #e16c8c;
+    color:white;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#my-ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+#my-ul .my-li{
+    margin-right: 20px;
+}
+
+/*..........................................................................*/
+.css1{
+    position: relative;
+    padding: 100px 0;
+}
+.css1 .css2{
+    position: relative;
+    background-color: white;
+    width: 70% !important;
+    box-shadow: 0 0 30px #08080866;
+    /*display: flex;*/
+    margin: 0 auto;
+    padding: 60px;
+    z-index: 2;
+}
+.css1{
+    background-color: white;
+    width: 100%;
+}
+.buy{
+    background-color: #e16c8c;
+    padding: 12px 32px;
+    font-size: 16px ;
+    color: white;
+    border: none;
+    border-radius: 70px;
+}
+.css3 h1{
+    font-size: 52px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 0 8px 0;
+    color: #000;
+    line-height: 56px;
+}
+.css3 h5{
+    FONT-SIZE: 16px;
+    color: #e16c8c;
+    font-weight: 600;
+    margin: 0 0 12px 0;
+}
+.css3 .p1{
+    color: #199b31;
+    font-weight: 600;
+    margin: 0;
+}
+.css3 .p2{
+    color: #919191;
+    margin-top: 0;
+    font-weight: 300;
+}
+.fimage .c-img{
+    width: 280px;
+    margin: 0;
+    display: block;
+}
+.simage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.simage img{
+    width: 32px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 12px;
+}
+
+.star-ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.star-ul li{
+    list-style-type: none;
+    margin-right: 4px;
+}
+.star-ul li i{
+    font-size: 18px;
+    color: #e5ba04;
+}
+/*...........................................*/
+.css1 .bg-color{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 20% 0 0 20%;
+    background: linear-gradient(341deg, #e16c8c, #ff9d5c);
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+
+#demo {
+    width: 100%;
+    margin-bottom: 100px;
+}
+#demo img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+}

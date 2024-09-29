@@ -1,0 +1,96 @@
+/* desktops */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* laptops and desktops */
+@media (min-width: 1024px) and (max-width: 1200px){
+
+}
+
+/* Tablet and laptops */
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/* laptops */
+@media screen and (max-width: 1024px){
+    .container {
+        max-width: 960px;
+        padding: 0;
+    }
+    header .navbar-nav .nav-item{
+        padding: 0 16px;
+    }
+}
+
+/* laptops size 992 */
+@media screen and (max-width: 992px){
+    .container {
+        max-width: 720px;
+    }
+    header .logo img {
+        height: 56px;
+        margin-right: 6px;
+    }
+    header .logo .logo-name {
+        font-size: 22px;
+    }
+    header .navbar-nav .nav-item {
+        padding: 0 15px;
+    }
+    .read-more{
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+}
+
+/* phones */
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    header .logo img {
+        height: 48px;
+        margin-right: 4px;
+    }
+    header .logo .logo-name {
+        font-size: 18px;
+    }
+    header .navbar {
+        padding: 8px 0;
+    }
+    header .navbar-nav .nav-item {
+        padding: 4px 0;
+    }
+    .css2 .card1 .pic2 {
+        height: 400px;
+    }
+    .my-heading h3{
+        font-size: 38px;
+    }
+    .footer .css4 img{
+        height: 48px;
+    }
+    .footer .css4 p {
+        font-size: 12px;
+    }
+    body, p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    .about-section .css2 .card2{
+        margin-top: 50px;
+    }
+    .css2 .card1 .pic2{
+        margin-top: 50px;
+    }
+    .join-us .picture2 img {
+        bottom: -84px;
+        height: 179px;
+        width: 228px;
+        left: 83px;
+        object-fit: cover;
+    }
+}
